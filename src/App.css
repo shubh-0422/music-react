@@ -1,0 +1,90 @@
+.App {
+  text-align: center;
+  padding: 5%;
+}
+body {
+  background: #000;
+  color: #fff;
+}
+.App-title {
+  font-size: 26px;
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+}
+.profile-img {
+  height: 150px;
+  width: 150px;
+  border: 3px solid white;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.profile-name {
+  font-size: 26px;
+}
+
+.profile-followers,
+.profile-genres {
+  font-size: 18px;
+}
+.profile-info {
+  margin-left: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*Galley*/
+.track {
+  display: inline-block;
+  width: 220px;
+  height: 220px;
+  margin: 10px;
+  text-align: left;
+  cursor: pointer;
+  position: relative;
+}
+.track-img {
+  widows: 220px;
+  height: 220px;
+  border: 3px solid #fff;
+  border-radius: 3px;
+  object-fit: cover;
+  position: absolute;
+}
+.track-text {
+  background-color: black;
+  color: white;
+  opacity: 0.75;
+  margin-left: 3px;
+  width: 220px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+}
+.track-play {
+  position: absolute;
+  height: 220px;
+  width: 220px;
+}
+.track-play-inner {
+  position: absolute;
+  text-align: center;
+  font-size: 25px;
+  background-color: black;
+  border-radius: 30px;
+  width: 60px;
+  height: 60px;
+  color: white;
+  padding-top: 13px;
+  margin-left: 80px;
+  margin-top: 80px;
+  opacity: 0;
+}
+.track-play-inner:hover {
+  opacity: 0.8;
+}
